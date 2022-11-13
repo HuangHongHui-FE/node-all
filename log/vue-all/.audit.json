@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 10
+    },
+    "auditLog": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all/.audit.json",
+    "files": [
+        {
+            "date": 1668351690857,
+            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221113.log",
+            "hash": "153f26b4cb4a9639494947500dc80352"
+        }
+    ],
+    "hashType": "md5"
+}
