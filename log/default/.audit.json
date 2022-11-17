@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 10
+    },
+    "auditLog": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\default/.audit.json",
+    "files": [
+        {
+            "date": 1668653966424,
+            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\default\\access-20221117.log",
+            "hash": "6bb0734763803aa2f97083ad146c634e"
+        }
+    ],
+    "hashType": "md5"
+}

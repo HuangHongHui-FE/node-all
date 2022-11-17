@@ -18,31 +18,22 @@ app.use("/public", express.static("public"));
 app.use(express.json());
 
 // 日志写入的文件夹
-var logDir = defaultLogDir;
+var logDir = path.join(__dirname, defaultLogDir);
 
-console.log('aaa');
+console.log('aaa', logDir);
 for(let i = 0; i < routerApi.length; i++){
     let item = routerApi[i];
-    // 确定日志文件夹名称
-    app.use(item.api, (req, res, next) => {
-        let tempLogDir = path.join(__dirname, item.logDir);
-        logDir = tempLogDir;
-        handleLog(logDir);
-        next()
-    });
-}
-
-
-for(let i = 0; i < routerApi.length; i++){
-    // 路由匹配
-    let item = routerApi[i];
+    // 日志
+    let tempLogDir = path.join(__dirname, item.logDir);
+    handleLog(app, tempLogDir, item.api);
+    // 路由配置
     app.use(item.api, require(`./router${item.routePath}`));
 }
 
-
-app.get("/", (req, res) => {
-    res.send("你好 express")
-})
+// handleLog(app, logDir, '/*');
+// app.get("/", (req, res) => {
+//     res.send("你好, 未找到对应的路由配置, 请按照规范访问正确的路由");
+// })
 
 
 // 挂载统一处理服务端错误中间件
