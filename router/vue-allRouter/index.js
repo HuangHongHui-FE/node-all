@@ -5,8 +5,8 @@ const router = express.Router();
 router.get('/', (req, res, next) => {
     res.send('你好CVue')
 })
-// 用户相关路由
-// router.use(require('./user'))
+// 大文件上传路由
+router.use(require('./big-file'))
 
 // 用户资料相关路由
 // router.use('/profiles', require('./profile'))

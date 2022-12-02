@@ -5,7 +5,6 @@ const { listen } = require("./utils/listen");
 
 const errorHandler = require('./middleware/error-handler')
 const path = require('path')
-const fs = require('fs')
 
 // 日志处理
 const {handleLog} = require('./utils/reqLog')
@@ -17,10 +16,9 @@ app.use("/public", express.static("public"));
 
 app.use(express.json());
 
-// 日志写入的文件夹
+// 默认日志写入的文件夹
 var logDir = path.join(__dirname, defaultLogDir);
 
-console.log('aaa', logDir);
 for(let i = 0; i < routerApi.length; i++){
     let item = routerApi[i];
     // 日志
@@ -30,10 +28,11 @@ for(let i = 0; i < routerApi.length; i++){
     app.use(item.api, require(`./router${item.routePath}`));
 }
 
-// handleLog(app, logDir, '/*');
-// app.get("/", (req, res) => {
-//     res.send("你好, 未找到对应的路由配置, 请按照规范访问正确的路由");
-// })
+// 没匹配到的请请求去默认的log里
+handleLog(app, logDir, '/*');
+app.get("/*", (req, res) => {
+    res.send("你好, 未找到对应的路由配置, 请按照规范访问正确的路由");
+})
 
 
 // 挂载统一处理服务端错误中间件
