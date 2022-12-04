@@ -7,11 +7,22 @@ const errorHandler = require('./middleware/error-handler')
 const path = require('path')
 
 // 日志处理
-const {handleLog} = require('./utils/reqLog')
+const { handleLog } = require('./utils/reqLog')
 // 日志的文件夹
-const {defaultLogDir, routerApi} = require('./config/index')
+const { defaultLogDir, routerApi } = require('./config/index')
 
-app.use(Cors());
+// 设置cookie必须设置这个origin
+app.use(Cors({
+    origin: '*', // 默认是*
+    credentials: true
+}));
+app.all('/*', (req,res, next) => {
+    if(req.headers.origin){
+        res.setHeader("Access-Control-Allow-Origin", req.headers.origin);
+    }
+    next();
+})
+
 app.use("/public", express.static("public"));
 
 app.use(express.json());
@@ -19,7 +30,7 @@ app.use(express.json());
 // 默认日志写入的文件夹
 var logDir = path.join(__dirname, defaultLogDir);
 
-for(let i = 0; i < routerApi.length; i++){
+for (let i = 0; i < routerApi.length; i++) {
     let item = routerApi[i];
     // 日志
     let tempLogDir = path.join(__dirname, item.logDir);
