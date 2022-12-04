@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+/vue-all/big-file/files/*
+/vue-all/big-file/temporary/*
 
 # testing
 /coverage

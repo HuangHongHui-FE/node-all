@@ -6,7 +6,7 @@ router.get('/', (req, res, next) => {
     res.send('你好CVue')
 })
 // 大文件上传路由
-router.use(require('./big-file'))
+router.use('/bigFile', require('./big-file'))
 
 // 用户资料相关路由
 // router.use('/profiles', require('./profile'))
