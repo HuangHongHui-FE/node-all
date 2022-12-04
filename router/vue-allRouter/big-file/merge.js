@@ -25,6 +25,6 @@ exports.merge = async (req, res) => {
         res.send(sendFormat({data: buffer}));
         // `切片合并完成`
     } catch (error) {
-        console.error(error);
+        res.send(sendFormat({status: 500, msg: 'merge.js---'+error}))
     }
 }
