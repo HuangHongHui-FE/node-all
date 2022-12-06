@@ -1,9 +1,9 @@
 // send返回的数据格式
-function sendFormat({status='200', data={}, msg="ok"}){
+function sendFormat({status, data, msg}){
     let res = {
-        status: status,
-        data: data,
-        msg: msg
+        status: status || 200,
+        data: data || {},
+        msg: msg || 'okk'
     };
     return res;
 }
