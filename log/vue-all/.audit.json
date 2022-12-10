@@ -6,36 +6,6 @@
     "auditLog": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all/.audit.json",
     "files": [
         {
-            "date": 1670344021115,
-            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221207.log.3",
-            "hash": "eba41e6a8009693347cad2c8fb32d24b"
-        },
-        {
-            "date": 1670344026396,
-            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221207.log.4",
-            "hash": "0d0250d4e9c51d3b370c91321ee51c5c"
-        },
-        {
-            "date": 1670344114805,
-            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221207.log.5",
-            "hash": "244d8a166e3f16177836487bc0febce2"
-        },
-        {
-            "date": 1670344119488,
-            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221207.log.6",
-            "hash": "a54b672a24b119be39cdb8c0d885ef01"
-        },
-        {
-            "date": 1670344124207,
-            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221207.log.7",
-            "hash": "a6f2f5f7ca4bf737f14e6382c8b25668"
-        },
-        {
-            "date": 1670344129299,
-            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221207.log.8",
-            "hash": "a9a981a3b5b56f67b122d16d6942a99b"
-        },
-        {
             "date": 1670344320529,
             "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221207.log.9",
             "hash": "4121c852e475b5ba572c8dca9bdfc54d"
@@ -54,6 +24,36 @@
             "date": 1670344336530,
             "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221207.log.12",
             "hash": "039dd156772d8895531519919c6d01b9"
+        },
+        {
+            "date": 1670486011095,
+            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221208.log",
+            "hash": "84a2a819d950e6a4fb6a57a73ff7bd15"
+        },
+        {
+            "date": 1670486709493,
+            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221208.log.1",
+            "hash": "e6be66e6924cef43e8b9985b3c22ca3d"
+        },
+        {
+            "date": 1670486714813,
+            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221208.log.2",
+            "hash": "41c89e36b0900d3ec6d2a301e8ac3ce7"
+        },
+        {
+            "date": 1670486720084,
+            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221208.log.3",
+            "hash": "7800aa0f1710bc93043adb8deef2d225"
+        },
+        {
+            "date": 1670580812339,
+            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221209.log",
+            "hash": "b33697eb81b9fe88369b47952ec311f6"
+        },
+        {
+            "date": 1670618567425,
+            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221210.log",
+            "hash": "daeaf1edc57b52c05c26730e49e32e75"
         }
     ],
     "hashType": "md5"

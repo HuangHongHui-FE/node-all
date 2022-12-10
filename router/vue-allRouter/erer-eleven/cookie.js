@@ -10,5 +10,9 @@ exports.user = async (req, res) => {
     // req.headers.cookie: user=jay
     const user = req.headers?.cookie?.split("=")[1];
     console.log(user);
-    res.send(sendFormat({ status: 200, data: { user: user } }));
+
+    // 测试重复请求的优化
+    setTimeout(() => {
+        res.send(sendFormat({ status: 200, data: { user: user } }));
+    }, 2000)
 }
