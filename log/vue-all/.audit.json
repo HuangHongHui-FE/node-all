@@ -6,21 +6,6 @@
     "auditLog": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all/.audit.json",
     "files": [
         {
-            "date": 1670344320529,
-            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221207.log.9",
-            "hash": "4121c852e475b5ba572c8dca9bdfc54d"
-        },
-        {
-            "date": 1670344325418,
-            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221207.log.10",
-            "hash": "daec61ae5205657f8cbc0cb8614c1cd3"
-        },
-        {
-            "date": 1670344331228,
-            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221207.log.11",
-            "hash": "e4ad4d54ff4876ef8062a130becb6456"
-        },
-        {
             "date": 1670344336530,
             "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221207.log.12",
             "hash": "039dd156772d8895531519919c6d01b9"
@@ -54,6 +39,21 @@
             "date": 1670618567425,
             "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221210.log",
             "hash": "daeaf1edc57b52c05c26730e49e32e75"
+        },
+        {
+            "date": 1670735125271,
+            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20221211.log",
+            "hash": "2cad65ededd2b1f0e98cd7373e389b2a"
+        },
+        {
+            "date": 1675926292071,
+            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20230209.log",
+            "hash": "c7c98e2f96ad3b2f3d98041b8001277c"
+        },
+        {
+            "date": 1675958554372,
+            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\vue-all\\access-20230210.log",
+            "hash": "f9046d8b220d6f02cf529aed942865ac"
         }
     ],
     "hashType": "md5"

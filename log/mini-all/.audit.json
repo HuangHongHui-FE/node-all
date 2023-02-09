@@ -6,11 +6,6 @@
     "auditLog": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\mini-all/.audit.json",
     "files": [
         {
-            "date": 1668655398532,
-            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\mini-all\\access-20221117.log",
-            "hash": "e334fb916a0ec63f1832511af2355203"
-        },
-        {
             "date": 1669985645409,
             "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\mini-all\\access-20221202.log",
             "hash": "c824a3fc01cc054c371886c06b6111e2"
@@ -49,6 +44,16 @@
             "date": 1670618567456,
             "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\mini-all\\access-20221210.log",
             "hash": "ade8ca772865fe301eea42a597dd9791"
+        },
+        {
+            "date": 1670735125432,
+            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\mini-all\\access-20221211.log",
+            "hash": "e971ebb3041afec23ace16316939a180"
+        },
+        {
+            "date": 1675926292269,
+            "name": "C:\\Users\\HDR\\IdeaProjects\\IDEA\\nodejs\\node-all\\log\\mini-all\\access-20230209.log",
+            "hash": "9509278610ff04b93f22002f3714ecff"
         }
     ],
     "hashType": "md5"

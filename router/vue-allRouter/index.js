@@ -14,5 +14,7 @@ router.use('/ererEleven', require('./erer-eleven'))
 // 用户资料相关路由
 // router.use('/profiles', require('./profile'))
 
+router.use('/erthreeTwo', require('./erthree-two'))
+
 
 module.exports = router

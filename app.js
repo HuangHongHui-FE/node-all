@@ -1,6 +1,9 @@
 const express = require("express");
 const app = express();
 const Cors = require("cors");
+var bodyParser = require('body-parser');
+app.use(bodyParser());
+app.use(bodyParser.json())
 const { listen } = require("./utils/listen");
 
 const errorHandler = require('./middleware/error-handler')
